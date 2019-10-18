@@ -1,0 +1,56 @@
+<?php
+
+
+class Blog {
+
+   function __construct(){
+   }
+
+function blogs(){
+
+
+$servername = "localhost";
+$username = "";
+$password = "";
+
+// Create MySQL connection
+$conn = mysqli_connect($servername, $username, $password, "lolyrealty");
+
+$sql = "SELECT * FROM articles";
+
+$count = 100 ;
+
+//$i = 0;
+
+$result = $conn->query($sql);
+//<>
+while($row = $result->fetch_assoc()){
+//if($i < 3){
+
+
+echo '<div class="col-lg-4 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="'.$count.'">';
+echo '';
+echo '<div class="media media-custom d-block mb-3">';
+
+echo '<div class="media-body"  style="background: #231f20"  >';
+echo '<h1 class="meta-post" style="font-family:Barlow; font-size: 10px; text-align: center" >'.date("jS F, Y", strtotime($row["date"])).'</h1>';
+ echo '<h2 id="fitin" class="mt-0 mb-0" style="font-family:Italiana; text-align: center" ><span><a style="color: #FFFFFF !important;   white-space: nowrap; overflow: hidden;" href="blog-single.php?article_tid='.$row["article_tid"].'">'.$row["titulo"].'</a><span></h2>';
+echo '</div>';
+echo '<a href="blog-single.php?article_tid='.$row["article_tid"].'" class="mb-4 d-block" ><img src="'.$row["path"].'" alt="Image placeholder" class="img-fluid rounded article"></a>';
+echo '</div>';
+echo '';
+echo '</div>';
+$count = $count + 100;
+//$i++;
+//}
+
+
+}
+
+
+}
+
+}
+
+
+?>

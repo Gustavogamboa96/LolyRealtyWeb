@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('BarlowCondensed-Regular.woff2') format('woff2'),
+        url('BarlowCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Italiana';
+    src: url('Italiana-Regular.woff2') format('woff2'),
+        url('Italiana-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

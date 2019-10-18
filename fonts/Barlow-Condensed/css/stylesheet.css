@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('Barlow-Condensed.woff2') format('woff2'),
+        url('Barlow-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+

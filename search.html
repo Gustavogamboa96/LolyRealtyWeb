@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Loly Realty</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+<style>
+.center {
+  margin: auto;
+  width: 100%;
+}
+    .title {
+            text-align: center;
+            display: block;
+            font-size: 100px;
+
+
+
+    }
+
+@font-face {
+        font-family: Italiana;
+        src: url(fonts/Italiana-Regular/fonts/Italiana-Regular.ttf);
+}
+@font-face {
+        font-family: Barlow;
+        src: url(fonts/Barlow-Condensed/fonts/BarlowCondensed-Regular.ttf);
+}
+    .getback{ background: #231f20 !important ;}
+
+</style>
+  </head>
+  <body>
+    
+    <header class="site-header">
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-4 site-logo" data-aos="fade"><a href="index.html"><img src="loly/loly-05.png" height="150" width="200"></a>
+	</div>
+          <div class="col-8">
+
+
+            <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- END menu-toggle -->
+
+            <div class="site-navbar js-site-navbar">
+              <nav role="navigation">
+                <div class="container">
+                  <div class="row full-height align-items-center">
+                    <div class="col-md-6">
+                      <ul class="list-unstyled menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="active"><a href="search.html">Search</a></li>
+			 <li><a href="blog.html">Blog</a></li>
+			 <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 extra-info">
+                      <div class="row">
+                        <div class="col-md-6 mb-5">
+                          <h3>Contact Info</h3>
+                          <p>98 West 21th Street, Suite 721 <br> New York NY 10016</p>
+                          <p>info@yourdomain.com</p>
+                          <p>(+1) 435 3533</p>
+                          
+                        </div>
+                        <div class="col-md-6">
+                          <h3>Connect With Us</h3>
+                          <ul class="list-unstyled">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END head -->
+
+    <section class="site-hero overlay page-inside" style="background-image: url(img/iStock-665578572-small-dark.jpg)">
+      <div class="container">
+        <div class="row site-hero-inner align-items-center">
+          <div class="col-md-7 center">
+            <h1 class="title" data-aos="fade-up" style="font-family: Italiana; color: #FFFFFF;">search</h1>
+          </div>
+        </div>
+        <a href="#next-section" class="smoothscroll scroll-down">Scroll Down</a>
+      </div>
+    </section>
+    <!-- END section -->
+
+
+    <section class="section bg-primary contact-section getback" id="next-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-7">
+            
+            <form action="search.php" method="post" class="bg-white p-md-5 p-4 mb-5" style="margin-top: -150px;">
+
+	      <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="type1">Type</label>
+                  <select type="select" name="type1" class="form-control ">
+                          <option>Residential</option>
+                          <option>Commercial</option>
+                  </select>
+                </div>
+	      </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="type">Type</label>
+                  <select type="select" name="type" class="form-control ">
+			  <option>Rent</option>
+			  <option>Buy</option>
+	          </select>
+                </div>
+                 <div class="col-md-3 form-group">
+                  <label for="min">Min. Price</label>
+                  <input type="text" name="min" class="form-control ">
+                </div>
+                <div class="col-md-3 form-group">
+                  <label for="max">Max. Price</label>
+		  <input type="text" name="max" class="form-control ">
+                </div>
+              </div>
+          
+               <div class="row">
+                 <div class="col-md-6 form-group">
+                  <label for="email">Beds</label>
+                   <select type="select" name="beds" class="form-control ">
+			  <option>1</option>
+			  <option>2</option>
+			  <option>3</option>
+			  <option>4+</option>
+		   </select>
+                </div>
+		<div class="col-md-6 form-group">
+                  <label for="baths">Baths</label>
+                  <select type="select" name="baths" class="form-control ">
+			  <option>1</option>
+			  <option>2</option>
+			  <option>3</option>
+			  <option>4+</option>
+		   </select>
+                </div>
+              </div>
+		      <label>Square Ft.</label><br>
+	      <div class="row">
+                 <div class="col-md-3 form-group">
+                  <label for="minsf">Min.</label>
+                  <input type="text" name="minsf" class="form-control ">
+                </div>
+		<div class="col-md-3 form-group">
+                  <label for="maxsf">Max.</label>
+                  <input type="text" name="maxsf" class="form-control ">
+                </div>
+              </div>
+	      <br>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Search" class="btn btn-primary" style = 'background-color: #231F20 !important;;border-color: #231F20 !important;' >
+                </div>
+              </div>
+            </form>
+
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+		    <div class="col-md-10 ml-auto contact-info"> 
+                <p style="font-family:Barlow;"><span class="d-block">Address:</span> <span>8300 Nw 53 St<br>Suite 350<br>Doral FL, 33166<br> United States</span></p>
+                <p><span class="d-block">Phone:</span> <span> (+1) 305 542 6685</span></p>
+                <p><span class="d-block">Email:</span> <span><a href = "mailto: lp@lolyrealty.com">lp@lolyrealty.com</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section footer-section">
+            <style type="text/css">
+               .footer-section { background: #231f20 !important; }
+            </style>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <ul class="list-unstyled link">
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 mb-4 pr-md-4 contact-info">
+            <p><span class="d-block">Address:</span> <p>8300 Nw 53 St<br>Suite 350<br>Doral FL, 33166<br> United States</p></p>
+            <p><span class="d-block">Phone:</span> <span> (+1) 305 542 6685</span></p>
+            <p><span class="d-block">Email:</span><a href = "mailto: lp@lolyrealty.com">lp@lolyrealty.com</a></p>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <p>Sign up for our newsletter</p>
+            <form action="#" class="footer-newsletter">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your email...">
+                <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row bordertop pt-5">
+
+            <a href="https://twitter.com/LolyPadilla"><span class="fa fa-twitter"></span></a>
+            <a href="https://www.facebook.com/lolypadillarealtor/"><span class="fa fa-facebook"></span></a>
+            <a href="https://www.instagram.com/lolypadilla_realtor/"><span class="fa fa-instagram"></span></a>
+
+        </div>
+      </div>
+    </footer>
+    
+    
+    
+       <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
